@@ -12,3 +12,10 @@ model User {
   email    String   @unique
   password String
 }
+
+model VehicleTax {
+  id     Int     @id @default(autoincrement())
+  name   String
+  number String
+  price  String
+}
